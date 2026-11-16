@@ -48,7 +48,7 @@ You need **64-bit Python 3.12.10**, Git, `uv` on PATH and Docker Desktop with Li
 py -3.12 --version
 uv --version
 docker version
-powershell -NoProfile -ExecutionPolicy Bypass -File .eproduce.ps1 -Size 1000 -Output runs/proof
+powershell -NoProfile -ExecutionPolicy Bypass -File .\reproduce.ps1 -Size 1000 -Output runs/proof
 ```
 
 Expect `runs/proof/completed.json` and `runs/proof/verification.json` to say `PASS`, with 1,000 passages, 300 queries and 13 configurations. The driver creates three separate virtual environments to preserve incompatible grpc/protobuf pins, downloads the corpus and pinned model, computes fresh embeddings, runs stores sequentially, checks updates/deletes and new-process reopening, and restarts every server before checking persistence. It removes its own Docker containers, volumes and newly pulled images in `finally`. See [REPRODUCING.md](REPRODUCING.md) for commands by store, Docker settings, output files and cleanup.
@@ -63,7 +63,7 @@ Earlier and later Chroma runs had unfiltered p95 of 1.48 and 2.31 ms; FAISS reru
 
 ## Data, code and corrections
 
-[Raw full-run results](results/full/), [numeric provenance](results/provenance.json), [corpus sources](corpus/sources.json), [model revision](corpus/model.json), and [proof run](results/proof/) are kept separately. Books, weights, generated vectors and databases are downloaded/generated locally and are not bundled. Only host-path text and an internal source label were removed from two full-run JSON strings; all numeric fields are unchanged.
+[Raw full-run results](results/full/), [numeric provenance](results/provenance.json), [corpus sources](corpus/sources.json), [model revision](corpus/model.json), and [proof run](results/proof/) are kept separately. Books, weights, generated vectors and databases are downloaded/generated locally and are not bundled. Host paths and internal source labels were removed only from string fields, as listed in the provenance file; all numeric fields are unchanged.
 
 Code is [MIT licensed](LICENSE). Stores, model weights and corpus have their own [third-party terms](THIRD-PARTY-NOTICES.md). [Corrections and reruns](CONTRIBUTING.md) are welcome.
 

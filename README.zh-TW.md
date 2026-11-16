@@ -46,7 +46,7 @@ Qdrant Windows bind mount 實際出現檔案系統安全警告，因此另保留
 py -3.12 --version
 uv --version
 docker version
-powershell -NoProfile -ExecutionPolicy Bypass -File .eproduce.ps1 -Size 1000 -Output runs/proof
+powershell -NoProfile -ExecutionPolicy Bypass -File .\reproduce.ps1 -Size 1000 -Output runs/proof
 ```
 
 完成後 `runs/proof/completed.json` 與 `verification.json` 應顯示 PASS：1,000 段、300 題、13 種設定。程式分開建立三個虛擬環境，保留各輪 grpc／protobuf 固定版本；真正下載原文與模型、重算 CPU embedding，再依序執行。每套都測更新、刪除及新程序重開；伺服器另做 restart 後重查。結束時移除自己建立的 Docker container、volume 與新下載 image。

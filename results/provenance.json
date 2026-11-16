@@ -2,14 +2,14 @@
   {
     "file": "full/Chroma_native.json",
     "original_sha256": "52b5307d840609c68823943a425585c38ada0e4de4e5f4c206582a8bf662396a",
-    "public_sha256": "fc700f282713c92556ad03f9cc636a8c0967db17a9f9b0edaa79e04f2cfc9067",
+    "public_sha256": "4ccf802c58ad650e363a815f97365e9725a2ea58689c3aa83630a560a1c91f69",
     "numeric_leaves_unchanged": true,
     "string_changes": []
   },
   {
     "file": "full/FAISS_native.json",
     "original_sha256": "00541f0c93e5d54607ced71409e99b115f37b36dec87947f333f183a9310e3a1",
-    "public_sha256": "883fb6c7020b5751fe5fe9fad0f245505312eaa2275a38c88254578a0095a5ad",
+    "public_sha256": "a2658cf95a845b852999204f895c983b58c4a3947741ff110abf7b41b0a77641",
     "numeric_leaves_unchanged": true,
     "string_changes": [
       "/configuration: internal source label replaced"
@@ -18,14 +18,14 @@
   {
     "file": "full/LanceDB_native.json",
     "original_sha256": "905946a850256d1e48217093f3cecce09718e1b5e6f65f4080e80d96e8832834",
-    "public_sha256": "e5a407d9062c25f3149fc0d33aba083d5f972fa5baaaf05c2d5e83c9c510bbc7",
+    "public_sha256": "3e2350ed7e10f036ad6d9eeb42713a94be6f3b90c8fb7cb062923412fcd1abfa",
     "numeric_leaves_unchanged": true,
     "string_changes": []
   },
   {
     "file": "full/Qdrant_local_native.json",
     "original_sha256": "0d42791eff7713f5220101f433affc0e6cd86f40c7d003b18b36a30e3a6044e8",
-    "public_sha256": "df7d0679f54020992504f5d7ba124239bcf7aeb5aa383a8fe5e5da8a297d220e",
+    "public_sha256": "c3634d1ed266478a815a4e93ca041e08472ccfabf3030160f62c360b0cbbf017",
     "numeric_leaves_unchanged": true,
     "string_changes": [
       "/concurrent_open_stderr: traceback with host paths replaced by the fixed error message"
@@ -34,85 +34,117 @@
   {
     "file": "full/Qdrant_server_Linux_named_volume.json",
     "original_sha256": "df525e25bbbb09a2ac6aebf386470dffd99ad80abdb52403cd6ccf66c1670c27",
-    "public_sha256": "b783f52e2e4063c1bad25b4969349f0f9e7829a3dda673b808164ac8758deb49",
+    "public_sha256": "0abe263db047d97ca81a6745d2e7d6ce771b4b6e0d85a304aa95b365703d32e2",
     "numeric_leaves_unchanged": true,
     "string_changes": []
   },
   {
     "file": "full/Qdrant_server_Windows_bind_mount.json",
     "original_sha256": "056dd0a6270b1a9e1b8f2eac3ab573a4acd11ffd7dba89c222559c50bc33cc95",
-    "public_sha256": "0cd2fea9b60bdf5a904619cd198db598f6eccd117b734f48c12baba159948d9c",
+    "public_sha256": "eb4cb2804d3c0dbd244251f6c51d5771a091f2c6f3c041785f8fce7700c86e4e",
     "numeric_leaves_unchanged": true,
     "string_changes": []
   },
   {
     "file": "full/hardware.json",
     "original_sha256": "c413ac9042b2d3c01c200b397307c30c12a51c2dd9a456fc15d74a189316fa5f",
-    "public_sha256": "293a52922c2f064e56c8a18e4641e910a007c3f48aad36c8ffff12ced2b4f5b4",
+    "public_sha256": "9040a4c27c1eda5725a48c9124831f4120aeafe50148430e9e6577526c1fdbff",
     "numeric_leaves_unchanged": true,
     "string_changes": []
   },
   {
     "file": "full/hnswlib.json",
     "original_sha256": "ba9d6362e52debe01e56ba30eb195ba6ff909bd0057d0affc31ebec98c469f99",
-    "public_sha256": "f267e18263b4cfbf03b70513c77ab05bfe03ce1b000d40a18142ce34042d539a",
+    "public_sha256": "ba9d6362e52debe01e56ba30eb195ba6ff909bd0057d0affc31ebec98c469f99",
     "numeric_leaves_unchanged": true,
     "string_changes": []
   },
   {
     "file": "full/milvus.json",
     "original_sha256": "9d9d8d93b66c0415eda85ae5d9644f5b0538d68b26cac6e23e8a6afc72a01b1a",
-    "public_sha256": "9d9d8d93b66c0415eda85ae5d9644f5b0538d68b26cac6e23e8a6afc72a01b1a",
+    "public_sha256": "ec6460764b406a7e1f8f5ee9a6fe8471238a526616117eed0e72030db2e560e0",
     "numeric_leaves_unchanged": true,
     "string_changes": []
   },
   {
     "file": "full/pgvector_HNSW_+_exact_book_subset.json",
     "original_sha256": "c57dd200b73aebb7483c1a2cd9e96a9d240ee7940b51753c4963843d350109ab",
-    "public_sha256": "c57dd200b73aebb7483c1a2cd9e96a9d240ee7940b51753c4963843d350109ab",
+    "public_sha256": "aebf687a1e9b5b1afd140a5c41b5df75916c057d38410dea20cb074f7f300b67",
     "numeric_leaves_unchanged": true,
     "string_changes": []
   },
   {
     "file": "full/pgvector_exact.json",
     "original_sha256": "c57dd200b73aebb7483c1a2cd9e96a9d240ee7940b51753c4963843d350109ab",
-    "public_sha256": "c57dd200b73aebb7483c1a2cd9e96a9d240ee7940b51753c4963843d350109ab",
+    "public_sha256": "aebf687a1e9b5b1afd140a5c41b5df75916c057d38410dea20cb074f7f300b67",
     "numeric_leaves_unchanged": true,
     "string_changes": []
   },
   {
     "file": "full/pgvector_hnsw.json",
     "original_sha256": "c57dd200b73aebb7483c1a2cd9e96a9d240ee7940b51753c4963843d350109ab",
-    "public_sha256": "c57dd200b73aebb7483c1a2cd9e96a9d240ee7940b51753c4963843d350109ab",
+    "public_sha256": "aebf687a1e9b5b1afd140a5c41b5df75916c057d38410dea20cb074f7f300b67",
     "numeric_leaves_unchanged": true,
     "string_changes": []
   },
   {
     "file": "full/preparation.json",
     "original_sha256": "cd7a4746eb4afc8d1bb05db1f1b91b854df2fdb6d2e85479ec86c03e878dba71",
-    "public_sha256": "f4d55c37c9b28968c17d66062260923db451505b90821c842b93a8ed41d58a44",
+    "public_sha256": "472d0e593393c3445fb04bacdbd4b9a566539f2da5be4e069d6d051ffce751d6",
     "numeric_leaves_unchanged": true,
     "string_changes": []
   },
   {
     "file": "full/qdrant-named-exact.json",
     "original_sha256": "85505cdcbc182460ea62bd1805acd70926ab0aaac10ae705b348217b05333e38",
-    "public_sha256": "17d84cdadd1afd9ef1f91e5a0b7dc74c5d14ab8b81b2028bfa77f3ea4dd9d5ca",
+    "public_sha256": "66817a53452171b47f26aff6980f03161eba387c85e15f301d925db1705bb238",
     "numeric_leaves_unchanged": true,
     "string_changes": []
   },
   {
     "file": "full/sqlite-vec.json",
     "original_sha256": "0b5a63b787eaceb08cceea68c1ed3694c8a9ead64e8012c09bcffd9b517bae89",
-    "public_sha256": "0b5a63b787eaceb08cceea68c1ed3694c8a9ead64e8012c09bcffd9b517bae89",
+    "public_sha256": "d2db67aa9906796df455fd6aff78a57419b5e7860ef22fe18f1c1e28dbbfd9e6",
     "numeric_leaves_unchanged": true,
     "string_changes": []
   },
   {
     "file": "full/weaviate.json",
     "original_sha256": "571e6568216595ce1e4018246a71d202dee7a03637b6af5a5ce4dcbbe44eae5b",
-    "public_sha256": "571e6568216595ce1e4018246a71d202dee7a03637b6af5a5ce4dcbbe44eae5b",
+    "public_sha256": "27090ad7e921e17e4a7cd3bea543cf54578575875809effe3b11c39769470456",
     "numeric_leaves_unchanged": true,
     "string_changes": []
+  },
+  {
+    "file": "full/exact-reference.json",
+    "original_sha256": "88059e1866317f47d63b93eac29feffd280ee99d6666713e77c8d564ee966d40",
+    "public_sha256": "cd8dd60626c63689a626801ea0380f2691de352676e54c0289348686845561e8",
+    "numeric_leaves_unchanged": true,
+    "string_changes": []
+  },
+  {
+    "file": "full/Chroma_repeat.json",
+    "original_sha256": "7079e4746ca8ceea0ac09f485695a254a15d31ccc15172a6ee461f793547397f",
+    "public_sha256": "23586586403f55786306fb85ddb95639d49369aaaaa3177a05465b74c4f4833b",
+    "numeric_leaves_unchanged": true,
+    "string_changes": []
+  },
+  {
+    "file": "full/FAISS_repeat_1.json",
+    "original_sha256": "cd56a29173099f7fd467b53b1d1589f11c78157cc8556b69a2a39865ce55087b",
+    "public_sha256": "26f0202326795549478efdb450485ca8c64069f58441329d011747e325737d66",
+    "numeric_leaves_unchanged": true,
+    "string_changes": [
+      "/configuration: internal source label replaced"
+    ]
+  },
+  {
+    "file": "full/FAISS_repeat_2.json",
+    "original_sha256": "c2353e795c5e0a5c15e89d34305959890023184f46258ca5065a88ae0ca94067",
+    "public_sha256": "8fdbf0715d5b9b20bf5fd2ce6708b23cccfd28e40a943d101e38b6f010cfada9",
+    "numeric_leaves_unchanged": true,
+    "string_changes": [
+      "/configuration: internal source label replaced"
+    ]
   }
 ]
