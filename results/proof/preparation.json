@@ -1,0 +1,200 @@
+{
+  "at": "2026-11-16T07:07:31.790275+00:00",
+  "books": [
+    {
+      "book_id": 2600,
+      "title": "War and Peace",
+      "url": "https://www.gutenberg.org/ebooks/2600.txt.utf-8",
+      "landing": "https://www.gutenberg.org/ebooks/2600",
+      "sha256": "2d5bb2ad5f422765e714617e21fa31bbaf8958aa79682c86fca6660fcc5d1b2b",
+      "words": 563286,
+      "available_chunks": 7040,
+      "rights_header": "The Project Gutenberg eBook of War and Peace\n    \nThis eBook is for the use of anyone anywhere in the United States and\nmost other parts of the world at no cost and with almost no restrictions\nwhatsoever. You may copy it, give it away or re-use it under the terms\nof the Project Gutenberg License included with this eBook or online\nat www.gutenberg.org. If you are not located in the United States,\nyou will have to check the laws of the country where you are located\nbefore using this eBook.\n\nTitle: War and Peace\n\nAuthor: graf Leo Tolstoy\n\nTranslator: Aylmer Maude\n        Louise Maude\n\n\n        \nRelease date: April 1, 2001 [eBook #2600]\n                Most recently updated: June 14, 2022\n\nLanguage: English\n\nOther information and formats: www.gutenberg.org/ebooks/2600\n\nCredits: An Anonymous Volunteer and David Widger\n\n\n",
+      "retrieved": "2026-11-16T07:06:08.231708+00:00"
+    },
+    {
+      "book_id": 135,
+      "title": "Les Miserables",
+      "url": "https://www.gutenberg.org/ebooks/135.txt.utf-8",
+      "landing": "https://www.gutenberg.org/ebooks/135",
+      "sha256": "6cf3b9d6fc5e6f733737425267d3af296d7f99f9b9fd1d255a3ab7689a6346ab",
+      "words": 565612,
+      "available_chunks": 7069,
+      "rights_header": "The Project Gutenberg eBook of Les Misérables\n    \nThis eBook is for the use of anyone anywhere in the United States and\nmost other parts of the world at no cost and with almost no restrictions\nwhatsoever. You may copy it, give it away or re-use it under the terms\nof the Project Gutenberg License included with this eBook or online\nat www.gutenberg.org. If you are not located in the United States,\nyou will have to check the laws of the country where you are located\nbefore using this eBook.\n\nTitle: Les Misérables\n\nAuthor: Victor Hugo\n\nTranslator: Isabel Florence Hapgood\n\n\n        \nRelease date: June 22, 2008 [eBook #135]\n                Most recently updated: October 29, 2024\n\nLanguage: English\n\nOther information and formats: www.gutenberg.org/ebooks/135\n\nCredits: Judith Boss and David Widger\n\n\n",
+      "retrieved": "2026-11-16T07:06:12.310155+00:00"
+    },
+    {
+      "book_id": 1184,
+      "title": "The Count of Monte Cristo",
+      "url": "https://www.gutenberg.org/ebooks/1184.txt.utf-8",
+      "landing": "https://www.gutenberg.org/ebooks/1184",
+      "sha256": "99245b8f3f6b637a3670d37305bb1ba52003f05797b6638571562999fd623f9c",
+      "words": 460965,
+      "available_chunks": 5761,
+      "rights_header": "The Project Gutenberg eBook of The Count of Monte Cristo\n    \nThis eBook is for the use of anyone anywhere in the United States and\nmost other parts of the world at no cost and with almost no restrictions\nwhatsoever. You may copy it, give it away or re-use it under the terms\nof the Project Gutenberg License included with this eBook or online\nat www.gutenberg.org. If you are not located in the United States,\nyou will have to check the laws of the country where you are located\nbefore using this eBook.\n\nTitle: The Count of Monte Cristo\n\nAuthor: Alexandre Dumas\n        Auguste Maquet\n\n\n        \nRelease date: January 1, 1998 [eBook #1184]\n                Most recently updated: October 25, 2026\n\nLanguage: English\n\nOther information and formats: www.gutenberg.org/ebooks/1184\n\nCredits: Anonymous Project Gutenberg Volunteers, Dan Muller and David Widger\n\n\n",
+      "retrieved": "2026-11-16T07:06:16.152771+00:00"
+    },
+    {
+      "book_id": 2701,
+      "title": "Moby Dick",
+      "url": "https://www.gutenberg.org/ebooks/2701.txt.utf-8",
+      "landing": "https://www.gutenberg.org/ebooks/2701",
+      "sha256": "b5e88b71a1cda068e9ab1d94344c9d932338ba6da1a66def97a1aecd9cfcc87d",
+      "words": 212796,
+      "available_chunks": 2659,
+      "rights_header": "The Project Gutenberg eBook of Moby Dick; Or, The Whale\n    \nThis eBook is for the use of anyone anywhere in the United States and\nmost other parts of the world at no cost and with almost no restrictions\nwhatsoever. You may copy it, give it away or re-use it under the terms\nof the Project Gutenberg License included with this eBook or online\nat www.gutenberg.org. If you are not located in the United States,\nyou will have to check the laws of the country where you are located\nbefore using this eBook.\n\nTitle: Moby Dick; Or, The Whale\n\nAuthor: Herman Melville\n\n\n        \nRelease date: July 1, 2001 [eBook #2701]\n                Most recently updated: October 9, 2026\n\nLanguage: English\n\nOther information and formats: www.gutenberg.org/ebooks/2701\n\nCredits: Daniel Lazarus, Jonesey, and David Widger\n\n\n",
+      "retrieved": "2026-11-16T07:06:19.738402+00:00"
+    },
+    {
+      "book_id": 145,
+      "title": "Middlemarch",
+      "url": "https://www.gutenberg.org/ebooks/145.txt.utf-8",
+      "landing": "https://www.gutenberg.org/ebooks/145",
+      "sha256": "dc2e0107e6ae07e8e33da934b2ec4e8e600826a2e0cd48df265119cd02e5fb50",
+      "words": 316381,
+      "available_chunks": 3954,
+      "rights_header": "The Project Gutenberg eBook of Middlemarch\n    \nThis eBook is for the use of anyone anywhere in the United States and\nmost other parts of the world at no cost and with almost no restrictions\nwhatsoever. You may copy it, give it away or re-use it under the terms\nof the Project Gutenberg License included with this eBook or online\nat www.gutenberg.org. If you are not located in the United States,\nyou will have to check the laws of the country where you are located\nbefore using this eBook.\n\nTitle: Middlemarch\n\nAuthor: George Eliot\n\n\n        \nRelease date: July 1, 1994 [eBook #145]\n                Most recently updated: April 12, 2026\n\nLanguage: English\n\nOther information and formats: www.gutenberg.org/ebooks/145\n\n\n",
+      "retrieved": "2026-11-16T07:06:23.771714+00:00"
+    },
+    {
+      "book_id": 1400,
+      "title": "Great Expectations",
+      "url": "https://www.gutenberg.org/ebooks/1400.txt.utf-8",
+      "landing": "https://www.gutenberg.org/ebooks/1400",
+      "sha256": "9a637118af8e953e9764ec603d9b0a032883384d465acac2e27966a80cf1c6f8",
+      "words": 184478,
+      "available_chunks": 2305,
+      "rights_header": "The Project Gutenberg eBook of Great Expectations\n    \nThis eBook is for the use of anyone anywhere in the United States and\nmost other parts of the world at no cost and with almost no restrictions\nwhatsoever. You may copy it, give it away or re-use it under the terms\nof the Project Gutenberg License included with this eBook or online\nat www.gutenberg.org. If you are not located in the United States,\nyou will have to check the laws of the country where you are located\nbefore using this eBook.\n\nTitle: Great Expectations\n\nAuthor: Charles Dickens\n\n\n        \nRelease date: July 1, 1998 [eBook #1400]\n                Most recently updated: December 17, 2024\n\nLanguage: English\n\nOther information and formats: www.gutenberg.org/ebooks/1400\n\nCredits: An Anonymous Volunteer and David Widger\n\n\n",
+      "retrieved": "2026-11-16T07:06:27.415425+00:00"
+    },
+    {
+      "book_id": 1260,
+      "title": "Jane Eyre",
+      "url": "https://www.gutenberg.org/ebooks/1260.txt.utf-8",
+      "landing": "https://www.gutenberg.org/ebooks/1260",
+      "sha256": "13414dee2951c3ee731d76d2ffd822016b2479c892162760c5d0eb2aa5fa7631",
+      "words": 185390,
+      "available_chunks": 2317,
+      "rights_header": "The Project Gutenberg eBook of Jane Eyre: An Autobiography\n    \nThis eBook is for the use of anyone anywhere in the United States and\nmost other parts of the world at no cost and with almost no restrictions\nwhatsoever. You may copy it, give it away or re-use it under the terms\nof the Project Gutenberg License included with this eBook or online\nat www.gutenberg.org. If you are not located in the United States,\nyou will have to check the laws of the country where you are located\nbefore using this eBook.\n\nTitle: Jane Eyre: An Autobiography\n\nAuthor: Charlotte Brontë\n\nIllustrator: F. H. Townsend\n\n\n        \nRelease date: March 1, 1998 [eBook #1260]\n                Most recently updated: September 27, 2025\n\nLanguage: English\n\nOther information and formats: www.gutenberg.org/ebooks/1260\n\nCredits: David Price\n\n\n",
+      "retrieved": "2026-11-16T07:06:31.275898+00:00"
+    },
+    {
+      "book_id": 1342,
+      "title": "Pride and Prejudice",
+      "url": "https://www.gutenberg.org/ebooks/1342.txt.utf-8",
+      "landing": "https://www.gutenberg.org/ebooks/1342",
+      "sha256": "3f6bb9d6f78e0293b56acd4714dd68cb7d6d1d293402031ce9d5a216bcaf9d75",
+      "words": 127360,
+      "available_chunks": 1591,
+      "rights_header": "The Project Gutenberg eBook of Pride and Prejudice\n    \nThis eBook is for the use of anyone anywhere in the United States and\nmost other parts of the world at no cost and with almost no restrictions\nwhatsoever. You may copy it, give it away or re-use it under the terms\nof the Project Gutenberg License included with this eBook or online\nat www.gutenberg.org. If you are not located in the United States,\nyou will have to check the laws of the country where you are located\nbefore using this eBook.\n\nTitle: Pride and Prejudice\n\nAuthor: Jane Austen\n\n\n        \nRelease date: June 1, 1998 [eBook #1342]\n                Most recently updated: September 1, 2026\n\nLanguage: English\n\nOther information and formats: www.gutenberg.org/ebooks/1342\n\nCredits: Chuck Greif and the Online Distributed Proofreading Team at http://www.pgdp.net (This file was produced from images available at The Internet Archive)\n\n\n",
+      "retrieved": "2026-11-16T07:06:34.679485+00:00"
+    },
+    {
+      "book_id": 11,
+      "title": "Alice in Wonderland",
+      "url": "https://www.gutenberg.org/ebooks/11.txt.utf-8",
+      "landing": "https://www.gutenberg.org/ebooks/11",
+      "sha256": "01b38ea4c710a84bc18d0bd41271a5a1a92b94e97b2812f4dece97d4a694725e",
+      "words": 26525,
+      "available_chunks": 331,
+      "rights_header": "The Project Gutenberg eBook of Alice's Adventures in Wonderland\n    \nThis eBook is for the use of anyone anywhere in the United States and\nmost other parts of the world at no cost and with almost no restrictions\nwhatsoever. You may copy it, give it away or re-use it under the terms\nof the Project Gutenberg License included with this eBook or online\nat www.gutenberg.org. If you are not located in the United States,\nyou will have to check the laws of the country where you are located\nbefore using this eBook.\n\nTitle: Alice's Adventures in Wonderland\n\nAuthor: Lewis Carroll\n\n\n        \nRelease date: June 27, 2008 [eBook #11]\n                Most recently updated: June 26, 2025\n\nLanguage: English\n\nOther information and formats: www.gutenberg.org/ebooks/11\n\nCredits: Arthur DiBianca and David Widger\n\n\n",
+      "retrieved": "2026-11-16T07:06:37.880845+00:00"
+    },
+    {
+      "book_id": 84,
+      "title": "Frankenstein",
+      "url": "https://www.gutenberg.org/ebooks/84.txt.utf-8",
+      "landing": "https://www.gutenberg.org/ebooks/84",
+      "sha256": "2b97b7f8aad508649481d8dd4f6b54f9b965ddb3ba634e9151c815f537b49e42",
+      "words": 75042,
+      "available_chunks": 937,
+      "rights_header": "The Project Gutenberg eBook of Frankenstein; or, The modern Prometheus\n    \nThis eBook is for the use of anyone anywhere in the United States and\nmost other parts of the world at no cost and with almost no restrictions\nwhatsoever. You may copy it, give it away or re-use it under the terms\nof the Project Gutenberg License included with this eBook or online\nat www.gutenberg.org. If you are not located in the United States,\nyou will have to check the laws of the country where you are located\nbefore using this eBook.\n\nTitle: Frankenstein; or, The modern Prometheus\n\nAuthor: Mary Wollstonecraft Shelley\n\n\n        \nRelease date: October 1, 1993 [eBook #84]\n                Most recently updated: February 10, 2026\n\nLanguage: English\n\nOther information and formats: www.gutenberg.org/ebooks/84\n\nCredits: Judith Boss, Christy Phillips, Lynn Hanninen and David Meltzer. HTML version by Al Haines.\n        Further corrections by Menno de Leeuw.\n\n\n",
+      "retrieved": "2026-11-16T07:06:41.272597+00:00"
+    },
+    {
+      "book_id": 1661,
+      "title": "The Adventures of Sherlock Holmes",
+      "url": "https://www.gutenberg.org/ebooks/1661.txt.utf-8",
+      "landing": "https://www.gutenberg.org/ebooks/1661",
+      "sha256": "922e2a12ccb43a4c9544c260b2166c6ad2097aeb5957faeee113f173bb857cd0",
+      "words": 104506,
+      "available_chunks": 1306,
+      "rights_header": "The Project Gutenberg eBook of The Adventures of Sherlock Holmes\n    \nThis eBook is for the use of anyone anywhere in the United States and\nmost other parts of the world at no cost and with almost no restrictions\nwhatsoever. You may copy it, give it away or re-use it under the terms\nof the Project Gutenberg License included with this eBook or online\nat www.gutenberg.org. If you are not located in the United States,\nyou will have to check the laws of the country where you are located\nbefore using this eBook.\n\nTitle: The Adventures of Sherlock Holmes\n\nAuthor: Arthur Conan Doyle\n\n\n        \nRelease date: March 1, 1999 [eBook #1661]\n                Most recently updated: October 10, 2023\n\nLanguage: English\n\nOther information and formats: www.gutenberg.org/ebooks/1661\n\nCredits: an anonymous Project Gutenberg volunteer and Jose Menendez\n\n\n",
+      "retrieved": "2026-11-16T07:06:44.678575+00:00"
+    },
+    {
+      "book_id": 98,
+      "title": "A Tale of Two Cities",
+      "url": "https://www.gutenberg.org/ebooks/98.txt.utf-8",
+      "landing": "https://www.gutenberg.org/ebooks/98",
+      "sha256": "d54c2b80d40a40b982cd88852c6180bb944d95acdb028af3d0e01a1750681784",
+      "words": 135886,
+      "available_chunks": 1698,
+      "rights_header": "The Project Gutenberg eBook of A Tale of Two Cities\n    \nThis eBook is for the use of anyone anywhere in the United States and\nmost other parts of the world at no cost and with almost no restrictions\nwhatsoever. You may copy it, give it away or re-use it under the terms\nof the Project Gutenberg License included with this eBook or online\nat www.gutenberg.org. If you are not located in the United States,\nyou will have to check the laws of the country where you are located\nbefore using this eBook.\n\nTitle: A Tale of Two Cities\n\nAuthor: Charles Dickens\n\n\n        \nRelease date: January 1, 1994 [eBook #98]\n                Most recently updated: February 26, 2026\n\nLanguage: English\n\nOther information and formats: www.gutenberg.org/ebooks/98\n\nCredits: Judith Boss and David Widger\n\n\n",
+      "retrieved": "2026-11-16T07:06:48.314994+00:00"
+    },
+    {
+      "book_id": 74,
+      "title": "Tom Sawyer",
+      "url": "https://www.gutenberg.org/ebooks/74.txt.utf-8",
+      "landing": "https://www.gutenberg.org/ebooks/74",
+      "sha256": "74d77384b123a6360db9ab58463cff8b38df8525fbdc6000c81ee388e1f3cf10",
+      "words": 70800,
+      "available_chunks": 884,
+      "rights_header": "The Project Gutenberg eBook of The Adventures of Tom Sawyer, Complete\n    \nThis eBook is for the use of anyone anywhere in the United States and\nmost other parts of the world at no cost and with almost no restrictions\nwhatsoever. You may copy it, give it away or re-use it under the terms\nof the Project Gutenberg License included with this eBook or online\nat www.gutenberg.org. If you are not located in the United States,\nyou will have to check the laws of the country where you are located\nbefore using this eBook.\n\nTitle: The Adventures of Tom Sawyer, Complete\n\nAuthor: Mark Twain\n\n\n        \nRelease date: July 1, 2004 [eBook #74]\n                Most recently updated: May 10, 2025\n\nLanguage: English\n\nOther information and formats: www.gutenberg.org/ebooks/74\n\nCredits: David Widger\n\n\n",
+      "retrieved": "2026-11-16T07:06:51.490681+00:00"
+    },
+    {
+      "book_id": 768,
+      "title": "Wuthering Heights",
+      "url": "https://www.gutenberg.org/ebooks/768.txt.utf-8",
+      "landing": "https://www.gutenberg.org/ebooks/768",
+      "sha256": "e533fe750589f0421d5d744576315f5c2b9b0d69e981179ea0551bbf134c5e02",
+      "words": 115945,
+      "available_chunks": 1449,
+      "rights_header": "The Project Gutenberg eBook of Wuthering Heights\n    \nThis eBook is for the use of anyone anywhere in the United States and\nmost other parts of the world at no cost and with almost no restrictions\nwhatsoever. You may copy it, give it away or re-use it under the terms\nof the Project Gutenberg License included with this eBook or online\nat www.gutenberg.org. If you are not located in the United States,\nyou will have to check the laws of the country where you are located\nbefore using this eBook.\n\nTitle: Wuthering Heights\n\nAuthor: Emily Brontë\n\n\n        \nRelease date: December 1, 1996 [eBook #768]\n                Most recently updated: May 6, 2026\n\nLanguage: English\n\nOther information and formats: www.gutenberg.org/ebooks/768\n\nCredits: David Price\n\n\n",
+      "retrieved": "2026-11-16T07:06:54.876441+00:00"
+    }
+  ],
+  "n": 1000,
+  "dimensions": 384,
+  "chunk_words": 96,
+  "stride_words": 80,
+  "book_counts": {
+    "2600": 72,
+    "135": 72,
+    "1184": 72,
+    "2701": 72,
+    "145": 72,
+    "1400": 72,
+    "1260": 71,
+    "1342": 71,
+    "11": 71,
+    "84": 71,
+    "1661": 71,
+    "98": 71,
+    "74": 71,
+    "768": 71
+  },
+  "query_provenance": "100 explicit literary topics x 3 question forms; authored programmatically, not held-out relevance labels",
+  "model": "BAAI/bge-small-en-v1.5",
+  "model_revision": "aa8f8b060edb00e03bfdd08813a2949946c8ba55",
+  "model_files": {
+    "README.md": "01e220eed6921254f7e086bb3506d1c03f019f5f747bb9ac2f6ec5ce541edc12",
+    "config.json": "13582bcf2effc85b7bf3d3f5532e686bc1c9ce86bb009d10f0ec33cbe92299dd",
+    "model_optimized.onnx": "51f1bd0addd6e859e42c2c8021a5e5461385bb676a649f4b269aa445449f2431",
+    "ort_config.json": "99881c45e073696289224931dd48694398bc6bcd1fe7cb7018bca1e0cc00e1fc",
+    "special_tokens_map.json": "5d5b662e421ea9fac075174bb0688ee0d9431699900b90662acd44b2a350503a",
+    "tokenizer.json": "d241a60d5e8f04cc1b2b3e9ef7a4921b27bf526d9f6050ab90f9267a1f9e5c66",
+    "tokenizer_config.json": "0b29c7bfc889e53b36d9dd3e686dd4300f6525110eaa98c76a5dafceb2029f53",
+    "vocab.txt": "07eced375cec144d27c900241f3e339478dec958f92fddbc551f295c992038a3"
+  },
+  "passage_embedding_s": 27.590285800019046,
+  "query_embedding_s": 0.4708536000107415,
+  "files": {
+    "chunks.jsonl": "2e2a3be83468672d7a70de71e129fad2484873ab0175eea45c4b6de95f296eec",
+    "queries.json": "54054b7b83702365da2a43a85359c6880824509e89039dbbfedbeaae759eec06",
+    "vectors.npy": "a9c2fd46735ff52e35dad6052b278616b9631ebe9263ccafd4a4085744ff8b2f",
+    "query-vectors.npy": "71dc4a9f87ffe0b21cb19324b038849d0d898ef8e7bf9dcba20566bbd56b0ac3"
+  }
+}

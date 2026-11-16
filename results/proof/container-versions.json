@@ -1,0 +1,42 @@
+{
+  "qdrant": {
+    "image": "qdrant/qdrant:v1.20.1",
+    "image_id": "sha256:d18c8e5061be3eaea2f53fbee1f0bf0382dc59cbb9b7112e41ffcc937ec14220",
+    "repo_digests": [
+      "qdrant/qdrant@sha256:d18c8e5061be3eaea2f53fbee1f0bf0382dc59cbb9b7112e41ffcc937ec14220"
+    ],
+    "size_bytes": 74275248
+  },
+  "pgvector": {
+    "image": "pgvector/pgvector:0.8.7-pg17",
+    "image_id": "sha256:b513c48566e4777cd3370451400000c78eda6a08131d68f4c31d4a76f27bd8fd",
+    "repo_digests": [
+      "pgvector/pgvector@sha256:b513c48566e4777cd3370451400000c78eda6a08131d68f4c31d4a76f27bd8fd"
+    ],
+    "size_bytes": 164141360
+  },
+  "milvus": {
+    "image": "milvusdb/milvus:v3.0.6",
+    "image_id": "sha256:6c606011b3d9124487344b80434d98094624ef359e8a33715263fd1206772069",
+    "repo_digests": [
+      "milvusdb/milvus@sha256:6c606011b3d9124487344b80434d98094624ef359e8a33715263fd1206772069"
+    ],
+    "size_bytes": 531322174
+  },
+  "weaviate": {
+    "image": "cr.weaviate.io/semitechnologies/weaviate:1.40.5",
+    "image_id": "sha256:fe848a3830c8a96fc598c903e39bbaa84a84553e30362663c313643a0febe32a",
+    "repo_digests": [
+      "cr.weaviate.io/semitechnologies/weaviate@sha256:fe848a3830c8a96fc598c903e39bbaa84a84553e30362663c313643a0febe32a"
+    ],
+    "size_bytes": 89161698
+  },
+  "hnswlib": {
+    "image": "python:3.12.10-slim-bookworm",
+    "image_id": "sha256:fd95fa221297a88e1cf49c55ec1828edd7c5a428187e67b5d1805692d11588db",
+    "repo_digests": [
+      "python@sha256:fd95fa221297a88e1cf49c55ec1828edd7c5a428187e67b5d1805692d11588db"
+    ],
+    "size_bytes": 45413663
+  }
+}

@@ -1,0 +1,1 @@
+{"store": "weaviate", "n": 1000, "ingest_s": 0.18231259999447502, "index_s": 2.0999868866056204e-06, "maintenance_s": 0.0029784000071231276, "summary": {"configured": {"plain": {"median_ms": 1.1698000016622245, "p95_ms": 1.2912799924379215, "recall_at_5": 1.0}, "filtered": {"median_ms": 1.193249991047196, "p95_ms": 1.3122849792125635, "recall_at_5": 1.0}}}}

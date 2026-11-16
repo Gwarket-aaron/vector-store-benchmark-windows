@@ -1,0 +1,21 @@
+{
+  "status": "PASS",
+  "n": 1000,
+  "queries": 300,
+  "configurations": 13,
+  "checks": [
+    "native/chroma",
+    "native/qdrant-local",
+    "native/lance",
+    "qdrant-named/qdrant-server",
+    "qdrant-bind/qdrant-server",
+    "faiss",
+    "sqlite-vec/configured",
+    "pgvector/exact",
+    "pgvector/hnsw",
+    "pgvector/hnsw-exact-filter",
+    "milvus/configured",
+    "weaviate/configured",
+    "hnswlib/configured"
+  ]
+}

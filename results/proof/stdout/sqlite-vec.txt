@@ -1,0 +1,1 @@
+{"store": "sqlite-vec", "n": 1000, "ingest_s": 0.021881499997107312, "index_s": 1.700012944638729e-06, "maintenance_s": 0.007753000012598932, "summary": {"configured": {"plain": {"median_ms": 0.8404499967582524, "p95_ms": 0.9405450007761829, "recall_at_5": 1.0}, "filtered": {"median_ms": 0.6940499879419804, "p95_ms": 0.7651250023627654, "recall_at_5": 1.0}}}}

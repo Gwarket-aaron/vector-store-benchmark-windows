@@ -1,0 +1,1 @@
+{"store": "milvus", "n": 1000, "ingest_s": 0.08727329998509958, "index_s": 4.2688221000134945, "maintenance_s": 5.522142800007714, "summary": {"configured": {"plain": {"median_ms": 2.389649991528131, "p95_ms": 2.6506500085815787, "recall_at_5": 1.0}, "filtered": {"median_ms": 2.314550001756288, "p95_ms": 2.6221100240945816, "recall_at_5": 1.0}}}}

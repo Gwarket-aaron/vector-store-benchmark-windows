@@ -1,0 +1,1 @@
+{"count": 999, "deleted_absent": true, "updated_note": "reviewed", "book_id": 135, "reopened_queries": [{"source": 0, "book_id": null, "ids": [32, 14, 98, 28, 70]}, {"source": 1, "book_id": 135, "ids": [1, 15, 29, 169, 281]}, {"source": 14, "book_id": 2600, "ids": [14, 28, 42, 112, 70]}]}

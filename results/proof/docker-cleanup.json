@@ -1,0 +1,42 @@
+[
+  {
+    "type": "volume",
+    "name": "vector-benchmark-qdrant-data",
+    "returncode": 0
+  },
+  {
+    "type": "volume",
+    "name": "vector-benchmark-pgvector-data",
+    "returncode": 0
+  },
+  {
+    "type": "volume",
+    "name": "vector-benchmark-milvus-data",
+    "returncode": 0
+  },
+  {
+    "type": "volume",
+    "name": "vector-benchmark-weaviate-data",
+    "returncode": 0
+  },
+  {
+    "type": "image",
+    "name": "pgvector/pgvector:0.8.7-pg17",
+    "returncode": 0
+  },
+  {
+    "type": "image",
+    "name": "milvusdb/milvus:v3.0.6",
+    "returncode": 0
+  },
+  {
+    "type": "image",
+    "name": "cr.weaviate.io/semitechnologies/weaviate:1.40.5",
+    "returncode": 0
+  },
+  {
+    "type": "image",
+    "name": "python:3.12.10-slim-bookworm",
+    "returncode": 0
+  }
+]

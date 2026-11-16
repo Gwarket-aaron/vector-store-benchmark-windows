@@ -1,0 +1,7 @@
+{
+  "n": 1000,
+  "documents_identical": true,
+  "document_vectors_bitwise_identical": true,
+  "query_vectors_bitwise_identical": true,
+  "queries_identical": true
+}

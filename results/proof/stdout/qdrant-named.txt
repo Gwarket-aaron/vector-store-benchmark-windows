@@ -1,0 +1,2 @@
+RUNNING qdrant-server
+DONE qdrant-server {'plain': {'median_ms': 13.144999989890493, 'p95_ms': 26.341749988205265, 'recall': 1.0}, 'filtered': {'median_ms': 12.860100003308617, 'p95_ms': 26.12957501696656, 'recall': 1.0}}

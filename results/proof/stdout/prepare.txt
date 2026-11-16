@@ -1,0 +1,16 @@
+downloaded 2600: 7040 chunks
+downloaded 135: 7069 chunks
+downloaded 1184: 5761 chunks
+downloaded 2701: 2659 chunks
+downloaded 145: 3954 chunks
+downloaded 1400: 2305 chunks
+downloaded 1260: 2317 chunks
+downloaded 1342: 1591 chunks
+downloaded 11: 331 chunks
+downloaded 84: 937 chunks
+downloaded 1661: 1306 chunks
+downloaded 98: 1698 chunks
+downloaded 74: 884 chunks
+downloaded 768: 1449 chunks
+embedded 256/1000
+PREPARED 27.590285800019046

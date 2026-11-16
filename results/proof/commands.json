@@ -1,0 +1,1187 @@
+[
+  {
+    "label": "python-version",
+    "command": [
+      "python\\Python312\\python.exe",
+      "--version"
+    ],
+    "returncode": 0,
+    "elapsed_s": 0.008472599991364405
+  },
+  {
+    "label": "uv-version",
+    "command": [
+      "uv",
+      "--version"
+    ],
+    "returncode": 0,
+    "elapsed_s": 0.017808400007197633
+  },
+  {
+    "label": "native-venv",
+    "command": [
+      "uv",
+      "venv",
+      "--python",
+      "python\\Python312\\python.exe",
+      ".\\.venv-native"
+    ],
+    "returncode": 0,
+    "elapsed_s": 0.114221700001508
+  },
+  {
+    "label": "native-install",
+    "command": [
+      "uv",
+      "pip",
+      "sync",
+      "--python",
+      ".\\.venv-native\\Scripts\\python.exe",
+      "requirements/native.lock"
+    ],
+    "returncode": 0,
+    "elapsed_s": 22.519001400010893
+  },
+  {
+    "label": "native-pip-check",
+    "command": [
+      "uv",
+      "pip",
+      "check",
+      "--python",
+      ".\\.venv-native\\Scripts\\python.exe"
+    ],
+    "returncode": 0,
+    "elapsed_s": 0.04319789999863133
+  },
+  {
+    "label": "native-versions",
+    "command": [
+      "uv",
+      "pip",
+      "freeze",
+      "--python",
+      ".\\.venv-native\\Scripts\\python.exe"
+    ],
+    "returncode": 0,
+    "elapsed_s": 0.025675799988675863
+  },
+  {
+    "label": "faiss-venv",
+    "command": [
+      "uv",
+      "venv",
+      "--python",
+      "python\\Python312\\python.exe",
+      ".\\.venv-faiss"
+    ],
+    "returncode": 0,
+    "elapsed_s": 0.026765599992359057
+  },
+  {
+    "label": "faiss-install",
+    "command": [
+      "uv",
+      "pip",
+      "sync",
+      "--python",
+      ".\\.venv-faiss\\Scripts\\python.exe",
+      "requirements/faiss.lock"
+    ],
+    "returncode": 0,
+    "elapsed_s": 2.3777531000087038
+  },
+  {
+    "label": "faiss-pip-check",
+    "command": [
+      "uv",
+      "pip",
+      "check",
+      "--python",
+      ".\\.venv-faiss\\Scripts\\python.exe"
+    ],
+    "returncode": 0,
+    "elapsed_s": 0.024225200002547354
+  },
+  {
+    "label": "faiss-versions",
+    "command": [
+      "uv",
+      "pip",
+      "freeze",
+      "--python",
+      ".\\.venv-faiss\\Scripts\\python.exe"
+    ],
+    "returncode": 0,
+    "elapsed_s": 0.018152999982703477
+  },
+  {
+    "label": "servers-venv",
+    "command": [
+      "uv",
+      "venv",
+      "--python",
+      "python\\Python312\\python.exe",
+      ".\\.venv-servers"
+    ],
+    "returncode": 0,
+    "elapsed_s": 0.02333369999541901
+  },
+  {
+    "label": "servers-install",
+    "command": [
+      "uv",
+      "pip",
+      "sync",
+      "--python",
+      ".\\.venv-servers\\Scripts\\python.exe",
+      "requirements/servers.lock"
+    ],
+    "returncode": 0,
+    "elapsed_s": 10.448271900007967
+  },
+  {
+    "label": "servers-pip-check",
+    "command": [
+      "uv",
+      "pip",
+      "check",
+      "--python",
+      ".\\.venv-servers\\Scripts\\python.exe"
+    ],
+    "returncode": 0,
+    "elapsed_s": 0.027176300005521625
+  },
+  {
+    "label": "servers-versions",
+    "command": [
+      "uv",
+      "pip",
+      "freeze",
+      "--python",
+      ".\\.venv-servers\\Scripts\\python.exe"
+    ],
+    "returncode": 0,
+    "elapsed_s": 0.0179333999985829
+  },
+  {
+    "label": "prepare",
+    "command": [
+      ".\\.venv-native\\Scripts\\python.exe",
+      "-X",
+      "utf8",
+      "-B",
+      "scripts/workload.py",
+      "prepare",
+      "--n",
+      "1000"
+    ],
+    "returncode": 0,
+    "elapsed_s": 88.90671429998474
+  },
+  {
+    "label": "native",
+    "command": [
+      ".\\.venv-native\\Scripts\\python.exe",
+      "-X",
+      "utf8",
+      "-B",
+      "scripts/workload.py",
+      "run",
+      "--n",
+      "1000",
+      "--out",
+      ".\\runs\\proof\\native"
+    ],
+    "returncode": 0,
+    "elapsed_s": 22.176154900022084
+  },
+  {
+    "label": "faiss",
+    "command": [
+      ".\\.venv-faiss\\Scripts\\python.exe",
+      "-X",
+      "utf8",
+      "-B",
+      "scripts/faiss_benchmark.py",
+      "--n",
+      "1000",
+      "--out",
+      ".\\runs\\proof\\faiss"
+    ],
+    "returncode": 0,
+    "elapsed_s": 1.0133780000032857
+  },
+  {
+    "label": "sqlite-vec",
+    "command": [
+      ".\\.venv-servers\\Scripts\\python.exe",
+      "-X",
+      "utf8",
+      "-B",
+      "scripts/benchmark.py",
+      "--n",
+      "1000",
+      "--store",
+      "sqlite-vec",
+      "--out",
+      ".\\runs\\proof\\sqlite-vec"
+    ],
+    "returncode": 0,
+    "elapsed_s": 0.9746321999991778
+  },
+  {
+    "label": "sqlite-vec-reopen",
+    "command": [
+      ".\\.venv-servers\\Scripts\\python.exe",
+      "-X",
+      "utf8",
+      "-B",
+      "scripts/benchmark.py",
+      "--n",
+      "1000",
+      "--store",
+      "sqlite-vec",
+      "--out",
+      ".\\runs\\proof\\sqlite-vec",
+      "--reopen"
+    ],
+    "returncode": 0,
+    "elapsed_s": 0.25569970000651665
+  },
+  {
+    "label": "docker-version",
+    "command": [
+      "docker",
+      "version",
+      "--format",
+      "{{.Server.Version}}"
+    ],
+    "returncode": 0,
+    "elapsed_s": 0.15505040000425652
+  },
+  {
+    "label": "qdrant-image-before",
+    "command": [
+      "docker",
+      "image",
+      "inspect",
+      "qdrant/qdrant:v1.20.1"
+    ],
+    "returncode": 0,
+    "elapsed_s": 5.0398241999791935
+  },
+  {
+    "label": "qdrant-image-version",
+    "command": [
+      "docker",
+      "image",
+      "inspect",
+      "qdrant/qdrant:v1.20.1"
+    ],
+    "returncode": 0,
+    "elapsed_s": 0.16588580000097863
+  },
+  {
+    "label": "qdrant-volume",
+    "command": [
+      "docker",
+      "volume",
+      "create",
+      "--label",
+      "owner=vector-benchmark",
+      "vector-benchmark-qdrant-data"
+    ],
+    "returncode": 0,
+    "elapsed_s": 0.1384202999761328
+  },
+  {
+    "label": "qdrant-start",
+    "command": [
+      "docker",
+      "run",
+      "-d",
+      "--name",
+      "vector-benchmark-qdrant",
+      "--label",
+      "owner=vector-benchmark",
+      "--cpus",
+      "2",
+      "--memory",
+      "2g",
+      "-v",
+      "vector-benchmark-qdrant-data:/qdrant/storage",
+      "-e",
+      "QDRANT__TELEMETRY_DISABLED=true",
+      "-p",
+      "127.0.0.1:16386:6333",
+      "qdrant/qdrant:v1.20.1"
+    ],
+    "returncode": 0,
+    "elapsed_s": 0.4122423999942839
+  },
+  {
+    "label": "qdrant-named",
+    "command": [
+      ".\\.venv-native\\Scripts\\python.exe",
+      "-X",
+      "utf8",
+      "-B",
+      "scripts/workload.py",
+      "run",
+      "--n",
+      "1000",
+      "--out",
+      ".\\runs\\proof\\qdrant-named",
+      "--stores",
+      "qdrant-server",
+      "--server-url",
+      "http://127.0.0.1:16386"
+    ],
+    "returncode": 0,
+    "elapsed_s": 16.2111939000024
+  },
+  {
+    "label": "qdrant-named-restart",
+    "command": [
+      "docker",
+      "restart",
+      "vector-benchmark-qdrant"
+    ],
+    "returncode": 0,
+    "elapsed_s": 0.5711186999978963
+  },
+  {
+    "label": "qdrant-named-reopen",
+    "command": [
+      ".\\.venv-native\\Scripts\\python.exe",
+      "-X",
+      "utf8",
+      "-B",
+      "scripts/workload.py",
+      "reopen",
+      "--n",
+      "1000",
+      "--out",
+      ".\\runs\\proof\\qdrant-named",
+      "--store",
+      "qdrant-server",
+      "--server-url",
+      "http://127.0.0.1:16386"
+    ],
+    "returncode": 0,
+    "elapsed_s": 2.143740200001048
+  },
+  {
+    "label": "vector-benchmark-qdrant-logs",
+    "command": [
+      "docker",
+      "logs",
+      "--tail",
+      "80",
+      "vector-benchmark-qdrant"
+    ],
+    "returncode": 0,
+    "elapsed_s": 0.14031529999920167
+  },
+  {
+    "label": "vector-benchmark-qdrant-remove",
+    "command": [
+      "docker",
+      "rm",
+      "-f",
+      "vector-benchmark-qdrant"
+    ],
+    "returncode": 0,
+    "elapsed_s": 0.44705389998853207
+  },
+  {
+    "label": "qdrant-image-before",
+    "command": [
+      "docker",
+      "image",
+      "inspect",
+      "qdrant/qdrant:v1.20.1"
+    ],
+    "returncode": 0,
+    "elapsed_s": 0.16280879999976605
+  },
+  {
+    "label": "qdrant-image-version",
+    "command": [
+      "docker",
+      "image",
+      "inspect",
+      "qdrant/qdrant:v1.20.1"
+    ],
+    "returncode": 0,
+    "elapsed_s": 0.16140929999528453
+  },
+  {
+    "label": "qdrant-bind-start",
+    "command": [
+      "docker",
+      "run",
+      "-d",
+      "--name",
+      "vector-benchmark-qdrant-bind",
+      "--label",
+      "owner=vector-benchmark",
+      "--cpus",
+      "2",
+      "--memory",
+      "2g",
+      "-v",
+      ".\\runs\\proof\\qdrant-bind-storage:/qdrant/storage",
+      "-e",
+      "QDRANT__TELEMETRY_DISABLED=true",
+      "-p",
+      "127.0.0.1:16386:6333",
+      "qdrant/qdrant:v1.20.1"
+    ],
+    "returncode": 0,
+    "elapsed_s": 0.35480090000783093
+  },
+  {
+    "label": "qdrant-bind",
+    "command": [
+      ".\\.venv-native\\Scripts\\python.exe",
+      "-X",
+      "utf8",
+      "-B",
+      "scripts/workload.py",
+      "run",
+      "--n",
+      "1000",
+      "--out",
+      ".\\runs\\proof\\qdrant-bind",
+      "--stores",
+      "qdrant-server",
+      "--server-url",
+      "http://127.0.0.1:16386"
+    ],
+    "returncode": 0,
+    "elapsed_s": 16.631047299975762
+  },
+  {
+    "label": "qdrant-bind-restart",
+    "command": [
+      "docker",
+      "restart",
+      "vector-benchmark-qdrant-bind"
+    ],
+    "returncode": 0,
+    "elapsed_s": 0.5781653999874834
+  },
+  {
+    "label": "qdrant-bind-reopen",
+    "command": [
+      ".\\.venv-native\\Scripts\\python.exe",
+      "-X",
+      "utf8",
+      "-B",
+      "scripts/workload.py",
+      "reopen",
+      "--n",
+      "1000",
+      "--out",
+      ".\\runs\\proof\\qdrant-bind",
+      "--store",
+      "qdrant-server",
+      "--server-url",
+      "http://127.0.0.1:16386"
+    ],
+    "returncode": 0,
+    "elapsed_s": 2.0628987000091
+  },
+  {
+    "label": "vector-benchmark-qdrant-bind-logs",
+    "command": [
+      "docker",
+      "logs",
+      "--tail",
+      "80",
+      "vector-benchmark-qdrant-bind"
+    ],
+    "returncode": 0,
+    "elapsed_s": 0.13913369999499992
+  },
+  {
+    "label": "vector-benchmark-qdrant-bind-remove",
+    "command": [
+      "docker",
+      "rm",
+      "-f",
+      "vector-benchmark-qdrant-bind"
+    ],
+    "returncode": 0,
+    "elapsed_s": 0.41691590001573786
+  },
+  {
+    "label": "pgvector-image-before",
+    "command": [
+      "docker",
+      "image",
+      "inspect",
+      "pgvector/pgvector:0.8.7-pg17"
+    ],
+    "returncode": 1,
+    "elapsed_s": 0.13671530000283383
+  },
+  {
+    "label": "pgvector-pull",
+    "command": [
+      "docker",
+      "pull",
+      "pgvector/pgvector:0.8.7-pg17"
+    ],
+    "returncode": 0,
+    "elapsed_s": 20.320175100001507
+  },
+  {
+    "label": "pgvector-image-version",
+    "command": [
+      "docker",
+      "image",
+      "inspect",
+      "pgvector/pgvector:0.8.7-pg17"
+    ],
+    "returncode": 0,
+    "elapsed_s": 0.1729860000195913
+  },
+  {
+    "label": "pgvector-volume",
+    "command": [
+      "docker",
+      "volume",
+      "create",
+      "--label",
+      "owner=vector-benchmark",
+      "vector-benchmark-pgvector-data"
+    ],
+    "returncode": 0,
+    "elapsed_s": 0.13829079997958615
+  },
+  {
+    "label": "pgvector-start",
+    "command": [
+      "docker",
+      "run",
+      "-d",
+      "--name",
+      "vector-benchmark-pgvector",
+      "--label",
+      "owner=vector-benchmark",
+      "--cpus",
+      "2",
+      "--memory",
+      "2g",
+      "-v",
+      "vector-benchmark-pgvector-data:/var/lib/postgresql/data",
+      "-e",
+      "POSTGRES_HOST_AUTH_METHOD=trust",
+      "-p",
+      "127.0.0.1:15486:5432",
+      "pgvector/pgvector:0.8.7-pg17"
+    ],
+    "returncode": 0,
+    "elapsed_s": 0.4697431999957189
+  },
+  {
+    "label": "pgvector",
+    "command": [
+      ".\\.venv-servers\\Scripts\\python.exe",
+      "-X",
+      "utf8",
+      "-B",
+      "scripts/benchmark.py",
+      "--n",
+      "1000",
+      "--store",
+      "pgvector",
+      "--port",
+      "15486",
+      "--name",
+      "literature",
+      "--out",
+      ".\\runs\\proof\\pgvector"
+    ],
+    "returncode": 0,
+    "elapsed_s": 3.1838789000175893
+  },
+  {
+    "label": "pgvector-restart",
+    "command": [
+      "docker",
+      "restart",
+      "vector-benchmark-pgvector"
+    ],
+    "returncode": 0,
+    "elapsed_s": 0.6107701000000816
+  },
+  {
+    "label": "pgvector-reopen",
+    "command": [
+      ".\\.venv-servers\\Scripts\\python.exe",
+      "-X",
+      "utf8",
+      "-B",
+      "scripts/benchmark.py",
+      "--n",
+      "1000",
+      "--store",
+      "pgvector",
+      "--port",
+      "15486",
+      "--name",
+      "literature",
+      "--out",
+      ".\\runs\\proof\\pgvector",
+      "--reopen"
+    ],
+    "returncode": 0,
+    "elapsed_s": 0.49953370000002906
+  },
+  {
+    "label": "vector-benchmark-pgvector-logs",
+    "command": [
+      "docker",
+      "logs",
+      "--tail",
+      "80",
+      "vector-benchmark-pgvector"
+    ],
+    "returncode": 0,
+    "elapsed_s": 0.1399057999951765
+  },
+  {
+    "label": "vector-benchmark-pgvector-remove",
+    "command": [
+      "docker",
+      "rm",
+      "-f",
+      "vector-benchmark-pgvector"
+    ],
+    "returncode": 0,
+    "elapsed_s": 0.4056966000061948
+  },
+  {
+    "label": "milvus-image-before",
+    "command": [
+      "docker",
+      "image",
+      "inspect",
+      "milvusdb/milvus:v3.0.6"
+    ],
+    "returncode": 1,
+    "elapsed_s": 0.13658920000307262
+  },
+  {
+    "label": "milvus-pull",
+    "command": [
+      "docker",
+      "pull",
+      "milvusdb/milvus:v3.0.6"
+    ],
+    "returncode": 0,
+    "elapsed_s": 52.11256320000393
+  },
+  {
+    "label": "milvus-image-version",
+    "command": [
+      "docker",
+      "image",
+      "inspect",
+      "milvusdb/milvus:v3.0.6"
+    ],
+    "returncode": 0,
+    "elapsed_s": 0.1702577999967616
+  },
+  {
+    "label": "milvus-volume",
+    "command": [
+      "docker",
+      "volume",
+      "create",
+      "--label",
+      "owner=vector-benchmark",
+      "vector-benchmark-milvus-data"
+    ],
+    "returncode": 0,
+    "elapsed_s": 0.13905600001453422
+  },
+  {
+    "label": "milvus-start",
+    "command": [
+      "docker",
+      "run",
+      "-d",
+      "--name",
+      "vector-benchmark-milvus",
+      "--label",
+      "owner=vector-benchmark",
+      "--cpus",
+      "2",
+      "--memory",
+      "4g",
+      "-v",
+      "vector-benchmark-milvus-data:/var/lib/milvus",
+      "-e",
+      "ETCD_USE_EMBED=true",
+      "-e",
+      "ETCD_DATA_DIR=/var/lib/milvus/etcd",
+      "-e",
+      "ETCD_CONFIG_PATH=/milvus/configs/embedEtcd.yaml",
+      "-e",
+      "COMMON_STORAGETYPE=local",
+      "-e",
+      "DEPLOY_MODE=STANDALONE",
+      "--security-opt",
+      "seccomp:unconfined",
+      "-v",
+      ".\\runs\\proof\\embedEtcd.yaml:/milvus/configs/embedEtcd.yaml:ro",
+      "-p",
+      "127.0.0.1:19586:19530",
+      "-p",
+      "127.0.0.1:19086:9091",
+      "milvusdb/milvus:v3.0.6",
+      "milvus",
+      "run",
+      "standalone"
+    ],
+    "returncode": 0,
+    "elapsed_s": 0.5347906999813858
+  },
+  {
+    "label": "milvus",
+    "command": [
+      ".\\.venv-servers\\Scripts\\python.exe",
+      "-X",
+      "utf8",
+      "-B",
+      "scripts/benchmark.py",
+      "--n",
+      "1000",
+      "--store",
+      "milvus",
+      "--port",
+      "19586",
+      "--name",
+      "literature",
+      "--out",
+      ".\\runs\\proof\\milvus"
+    ],
+    "returncode": 0,
+    "elapsed_s": 13.10482619999675
+  },
+  {
+    "label": "milvus-restart",
+    "command": [
+      "docker",
+      "restart",
+      "vector-benchmark-milvus"
+    ],
+    "returncode": 0,
+    "elapsed_s": 1.7632828000059817
+  },
+  {
+    "label": "milvus-reopen",
+    "command": [
+      ".\\.venv-servers\\Scripts\\python.exe",
+      "-X",
+      "utf8",
+      "-B",
+      "scripts/benchmark.py",
+      "--n",
+      "1000",
+      "--store",
+      "milvus",
+      "--port",
+      "19586",
+      "--name",
+      "literature",
+      "--out",
+      ".\\runs\\proof\\milvus",
+      "--reopen"
+    ],
+    "returncode": 0,
+    "elapsed_s": 9.457152300019516
+  },
+  {
+    "label": "vector-benchmark-milvus-logs",
+    "command": [
+      "docker",
+      "logs",
+      "--tail",
+      "80",
+      "vector-benchmark-milvus"
+    ],
+    "returncode": 0,
+    "elapsed_s": 0.15755720000015572
+  },
+  {
+    "label": "vector-benchmark-milvus-remove",
+    "command": [
+      "docker",
+      "rm",
+      "-f",
+      "vector-benchmark-milvus"
+    ],
+    "returncode": 0,
+    "elapsed_s": 0.46883150000940077
+  },
+  {
+    "label": "weaviate-image-before",
+    "command": [
+      "docker",
+      "image",
+      "inspect",
+      "cr.weaviate.io/semitechnologies/weaviate:1.40.5"
+    ],
+    "returncode": 1,
+    "elapsed_s": 0.13516850001178682
+  },
+  {
+    "label": "weaviate-pull",
+    "command": [
+      "docker",
+      "pull",
+      "cr.weaviate.io/semitechnologies/weaviate:1.40.5"
+    ],
+    "returncode": 0,
+    "elapsed_s": 13.712098700023489
+  },
+  {
+    "label": "weaviate-image-version",
+    "command": [
+      "docker",
+      "image",
+      "inspect",
+      "cr.weaviate.io/semitechnologies/weaviate:1.40.5"
+    ],
+    "returncode": 0,
+    "elapsed_s": 0.16494869999587536
+  },
+  {
+    "label": "weaviate-volume",
+    "command": [
+      "docker",
+      "volume",
+      "create",
+      "--label",
+      "owner=vector-benchmark",
+      "vector-benchmark-weaviate-data"
+    ],
+    "returncode": 0,
+    "elapsed_s": 0.14333110000006855
+  },
+  {
+    "label": "weaviate-start",
+    "command": [
+      "docker",
+      "run",
+      "-d",
+      "--name",
+      "vector-benchmark-weaviate",
+      "--label",
+      "owner=vector-benchmark",
+      "--cpus",
+      "2",
+      "--memory",
+      "2g",
+      "-v",
+      "vector-benchmark-weaviate-data:/var/lib/weaviate",
+      "-e",
+      "AUTHENTICATION_ANONYMOUS_ACCESS_ENABLED=true",
+      "-e",
+      "PERSISTENCE_DATA_PATH=/var/lib/weaviate",
+      "-e",
+      "CLUSTER_HOSTNAME=benchmark-node",
+      "-e",
+      "DEFAULT_VECTORIZER_MODULE=none",
+      "-e",
+      "ENABLE_MODULES=",
+      "-e",
+      "DISABLE_TELEMETRY=true",
+      "-e",
+      "GOMAXPROCS=2",
+      "-e",
+      "AUTOSCHEMA_ENABLED=false",
+      "-e",
+      "DEFAULT_QUANTIZATION=none",
+      "-p",
+      "127.0.0.1:18086:8080",
+      "-p",
+      "127.0.0.1:18087:50051",
+      "cr.weaviate.io/semitechnologies/weaviate:1.40.5",
+      "--host",
+      "0.0.0.0",
+      "--port",
+      "8080",
+      "--scheme",
+      "http"
+    ],
+    "returncode": 0,
+    "elapsed_s": 0.5789191999938339
+  },
+  {
+    "label": "weaviate",
+    "command": [
+      ".\\.venv-servers\\Scripts\\python.exe",
+      "-X",
+      "utf8",
+      "-B",
+      "scripts/benchmark.py",
+      "--n",
+      "1000",
+      "--store",
+      "weaviate",
+      "--port",
+      "18086",
+      "--name",
+      "Literature",
+      "--out",
+      ".\\runs\\proof\\weaviate"
+    ],
+    "returncode": 0,
+    "elapsed_s": 3.1951701999932993
+  },
+  {
+    "label": "weaviate-restart",
+    "command": [
+      "docker",
+      "restart",
+      "vector-benchmark-weaviate"
+    ],
+    "returncode": 0,
+    "elapsed_s": 0.8092422999907285
+  },
+  {
+    "label": "weaviate-reopen",
+    "command": [
+      ".\\.venv-servers\\Scripts\\python.exe",
+      "-X",
+      "utf8",
+      "-B",
+      "scripts/benchmark.py",
+      "--n",
+      "1000",
+      "--store",
+      "weaviate",
+      "--port",
+      "18086",
+      "--name",
+      "Literature",
+      "--out",
+      ".\\runs\\proof\\weaviate",
+      "--reopen"
+    ],
+    "returncode": 0,
+    "elapsed_s": 1.8804097000102047
+  },
+  {
+    "label": "vector-benchmark-weaviate-logs",
+    "command": [
+      "docker",
+      "logs",
+      "--tail",
+      "80",
+      "vector-benchmark-weaviate"
+    ],
+    "returncode": 0,
+    "elapsed_s": 0.13999699999112636
+  },
+  {
+    "label": "vector-benchmark-weaviate-remove",
+    "command": [
+      "docker",
+      "rm",
+      "-f",
+      "vector-benchmark-weaviate"
+    ],
+    "returncode": 0,
+    "elapsed_s": 0.5191454000014346
+  },
+  {
+    "label": "hnswlib-image-before",
+    "command": [
+      "docker",
+      "image",
+      "inspect",
+      "python:3.12.10-slim-bookworm"
+    ],
+    "returncode": 1,
+    "elapsed_s": 0.13607560002128594
+  },
+  {
+    "label": "hnswlib-pull",
+    "command": [
+      "docker",
+      "pull",
+      "python:3.12.10-slim-bookworm"
+    ],
+    "returncode": 0,
+    "elapsed_s": 9.025491899985354
+  },
+  {
+    "label": "hnswlib-image-version",
+    "command": [
+      "docker",
+      "image",
+      "inspect",
+      "python:3.12.10-slim-bookworm"
+    ],
+    "returncode": 0,
+    "elapsed_s": 0.17657449998660013
+  },
+  {
+    "label": "hnswlib",
+    "command": [
+      "docker",
+      "run",
+      "--name",
+      "vector-benchmark-hnswlib",
+      "--label",
+      "owner=vector-benchmark",
+      "--cpus",
+      "2",
+      "--memory",
+      "2g",
+      "-v",
+      ".:/bench",
+      "-w",
+      "/bench",
+      "python:3.12.10-slim-bookworm",
+      "sh",
+      "-c",
+      "apt-get update && apt-get install -y --no-install-recommends g++ && python -m pip install --no-cache-dir -r requirements/hnswlib.lock && python -B scripts/benchmark.py --store hnswlib --data data --out runs/proof/hnswlib --n 1000 && python -B scripts/benchmark.py --store hnswlib --data data --out runs/proof/hnswlib --n 1000 --reopen"
+    ],
+    "returncode": 0,
+    "elapsed_s": 39.23716210000566
+  },
+  {
+    "label": "vector-benchmark-hnswlib-logs",
+    "command": [
+      "docker",
+      "logs",
+      "--tail",
+      "80",
+      "vector-benchmark-hnswlib"
+    ],
+    "returncode": 0,
+    "elapsed_s": 0.14100150001468137
+  },
+  {
+    "label": "vector-benchmark-hnswlib-remove",
+    "command": [
+      "docker",
+      "rm",
+      "-f",
+      "vector-benchmark-hnswlib"
+    ],
+    "returncode": 0,
+    "elapsed_s": 0.2812565000203904
+  },
+  {
+    "label": "verify",
+    "command": [
+      "python\\Python312\\python.exe",
+      "-B",
+      "scripts/verify_results.py",
+      "--run",
+      ".\\runs\\proof",
+      "--n",
+      "1000"
+    ],
+    "returncode": 0,
+    "elapsed_s": 0.19289369997568429
+  },
+  {
+    "label": "vector-benchmark-qdrant-data-cleanup",
+    "command": [
+      "docker",
+      "volume",
+      "rm",
+      "vector-benchmark-qdrant-data"
+    ],
+    "returncode": 0,
+    "elapsed_s": 0.1497088000178337
+  },
+  {
+    "label": "vector-benchmark-pgvector-data-cleanup",
+    "command": [
+      "docker",
+      "volume",
+      "rm",
+      "vector-benchmark-pgvector-data"
+    ],
+    "returncode": 0,
+    "elapsed_s": 0.15890380000928417
+  },
+  {
+    "label": "vector-benchmark-milvus-data-cleanup",
+    "command": [
+      "docker",
+      "volume",
+      "rm",
+      "vector-benchmark-milvus-data"
+    ],
+    "returncode": 0,
+    "elapsed_s": 0.15378910000436008
+  },
+  {
+    "label": "vector-benchmark-weaviate-data-cleanup",
+    "command": [
+      "docker",
+      "volume",
+      "rm",
+      "vector-benchmark-weaviate-data"
+    ],
+    "returncode": 0,
+    "elapsed_s": 0.1455054999969434
+  },
+  {
+    "label": "pgvector-0.8.7-pg17-cleanup",
+    "command": [
+      "docker",
+      "image",
+      "rm",
+      "pgvector/pgvector:0.8.7-pg17"
+    ],
+    "returncode": 0,
+    "elapsed_s": 0.3380749000061769
+  },
+  {
+    "label": "milvus-v3.0.6-cleanup",
+    "command": [
+      "docker",
+      "image",
+      "rm",
+      "milvusdb/milvus:v3.0.6"
+    ],
+    "returncode": 0,
+    "elapsed_s": 0.43202569999266416
+  },
+  {
+    "label": "weaviate-1.40.5-cleanup",
+    "command": [
+      "docker",
+      "image",
+      "rm",
+      "cr.weaviate.io/semitechnologies/weaviate:1.40.5"
+    ],
+    "returncode": 0,
+    "elapsed_s": 0.19255840001278557
+  },
+  {
+    "label": "python-3.12.10-slim-bookworm-cleanup",
+    "command": [
+      "docker",
+      "image",
+      "rm",
+      "python:3.12.10-slim-bookworm"
+    ],
+    "returncode": 0,
+    "elapsed_s": 0.22865239999373443
+  }
+]

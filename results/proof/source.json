@@ -1,0 +1,24 @@
+{
+  "source_commit": "14833771e28ceace8e5aaa967aad8b4e959aafc1",
+  "entry_command": "powershell -NoProfile -ExecutionPolicy Bypass -File .\\reproduce.ps1 -Size 1000 -Output runs/proof",
+  "clean_clone": true,
+  "preexisting_data": false,
+  "files": {
+    "scripts/benchmark.py": "e2213ebe91b7221dfae83ca3222ff3c6f43f2f21a0e6d799f42bbc351ce82cca",
+    "scripts/check_archive.py": "35a8614f048679d47771040fe1cbd2600dd27d7c648bdcdfd50219746cf20642",
+    "scripts/cleanup.py": "3e82a117cab6d43f420b00ec2588b82a2724d8b61ad6e8127d298ac26cf07e51",
+    "scripts/faiss_benchmark.py": "14ed96f089e5971aeefd05ec12c788e5d1e64d15b10629344a603fb85be4c4ec",
+    "scripts/reproduce.py": "b387a5cb513dca17642a985ce506095d9959b28196f69b0f1fc847c25575808e",
+    "scripts/verify_results.py": "145288bafdb1871aeaa4f82e43a742df411491d2e57e0ef6934eac47f7645e14",
+    "scripts/workload.py": "6cd852d1494260ab5612faa39eba59b357db34de38d29a3cf853b0065aa37432",
+    "requirements/faiss.lock": "12886b9fc7b78c489387d1b8ceff8bb75edfc449160846cc5ede4e30b6cbc509",
+    "requirements/hnswlib.lock": "fd1f0d9f10e02df9a2db697688719911127f346c999c93ede3ab7fa1f57872fe",
+    "requirements/native.lock": "b47c2056502bd8ad7199e8758f68090587b802bd71bbe5ca405d7ce83d8fbafc",
+    "requirements/servers.lock": "46330fdb0677e6608c05ae016eedd9eb0c3f90382505a47eec8b2966c7a92197",
+    "reproduce.ps1": "525dc892f4f769c292d6e8ab1a2ffdde9d4d770c070694683dd96332595855fa"
+  },
+  "postrun_verified_files": {
+    "scripts/cleanup.py": "a8194ae5fa49549e90346ceb07d288ac8b12073e06059d01746dee083fbb07ad"
+  },
+  "postrun_note": "The cleanup helper was updated after the main retrieval run to handle Windows MAX_PATH, then executed successfully on the actual remaining bind-mount files. Benchmark adapters, orchestrator and requirement files are unchanged."
+}

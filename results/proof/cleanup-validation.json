@@ -1,0 +1,7 @@
+{
+  "status": "PASS",
+  "script": "scripts/cleanup.py",
+  "sha256": "a8194ae5fa49549e90346ceb07d288ac8b12073e06059d01746dee083fbb07ad",
+  "reason": "extended Windows paths for long Qdrant bind-mount payload-index filenames",
+  "stdout": ".venv-native 0 bytes removed\n.venv-faiss 0 bytes removed\n.venv-servers 0 bytes removed\n.cache 0 bytes removed\ndata 0 bytes removed\nruns 184079498 bytes removed\n"
+}

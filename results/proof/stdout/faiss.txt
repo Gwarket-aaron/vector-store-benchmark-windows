@@ -1,0 +1,1 @@
+{"store": "faiss-flat-ip-idmap2", "n": 1000, "ingest_s": 0.007777799997711554, "maintenance_s": 0.0034744000004138798, "durable_reopen": {"count": 999, "deleted_absent": true, "updated_note": "reviewed", "book_id": 135}}
