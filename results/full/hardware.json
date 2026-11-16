@@ -1,0 +1,16 @@
+{
+  "at": "2026-11-16T01:25:35.338095+00:00",
+  "os": "Windows-11-10.0.26300-SP0",
+  "python": "3.12.10 (tags/v3.12.10:0cc8128, Apr  8 2025, 12:21:36) [MSC v.1943 64 bit (AMD64)]",
+  "processor": "AMD64 Family 26 Model 68 Stepping 0, AuthenticAMD",
+  "logical_cpus": 16,
+  "physical_cpus": 8,
+  "ram_bytes": 33408679936,
+  "thread_env": {
+    "OMP_NUM_THREADS": "2",
+    "OPENBLAS_NUM_THREADS": "2",
+    "MKL_NUM_THREADS": "2",
+    "RAYON_NUM_THREADS": "2"
+  },
+  "free_ram_at_start": 6938329088
+}

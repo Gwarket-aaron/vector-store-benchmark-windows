@@ -1,0 +1,114 @@
+[
+  {
+    "book_id": 2600,
+    "title": "War and Peace",
+    "text_url": "https://www.gutenberg.org/ebooks/2600.txt.utf-8",
+    "rights_url": "https://www.gutenberg.org/ebooks/2600",
+    "sha256": "2d5bb2ad5f422765e714617e21fa31bbaf8958aa79682c86fca6660fcc5d1b2b",
+    "rights": "Public domain in the USA, as recorded by Project Gutenberg; check local law elsewhere."
+  },
+  {
+    "book_id": 135,
+    "title": "Les Miserables",
+    "text_url": "https://www.gutenberg.org/ebooks/135.txt.utf-8",
+    "rights_url": "https://www.gutenberg.org/ebooks/135",
+    "sha256": "6cf3b9d6fc5e6f733737425267d3af296d7f99f9b9fd1d255a3ab7689a6346ab",
+    "rights": "Public domain in the USA, as recorded by Project Gutenberg; check local law elsewhere."
+  },
+  {
+    "book_id": 1184,
+    "title": "The Count of Monte Cristo",
+    "text_url": "https://www.gutenberg.org/ebooks/1184.txt.utf-8",
+    "rights_url": "https://www.gutenberg.org/ebooks/1184",
+    "sha256": "99245b8f3f6b637a3670d37305bb1ba52003f05797b6638571562999fd623f9c",
+    "rights": "Public domain in the USA, as recorded by Project Gutenberg; check local law elsewhere."
+  },
+  {
+    "book_id": 2701,
+    "title": "Moby Dick",
+    "text_url": "https://www.gutenberg.org/ebooks/2701.txt.utf-8",
+    "rights_url": "https://www.gutenberg.org/ebooks/2701",
+    "sha256": "b5e88b71a1cda068e9ab1d94344c9d932338ba6da1a66def97a1aecd9cfcc87d",
+    "rights": "Public domain in the USA, as recorded by Project Gutenberg; check local law elsewhere."
+  },
+  {
+    "book_id": 145,
+    "title": "Middlemarch",
+    "text_url": "https://www.gutenberg.org/ebooks/145.txt.utf-8",
+    "rights_url": "https://www.gutenberg.org/ebooks/145",
+    "sha256": "dc2e0107e6ae07e8e33da934b2ec4e8e600826a2e0cd48df265119cd02e5fb50",
+    "rights": "Public domain in the USA, as recorded by Project Gutenberg; check local law elsewhere."
+  },
+  {
+    "book_id": 1400,
+    "title": "Great Expectations",
+    "text_url": "https://www.gutenberg.org/ebooks/1400.txt.utf-8",
+    "rights_url": "https://www.gutenberg.org/ebooks/1400",
+    "sha256": "9a637118af8e953e9764ec603d9b0a032883384d465acac2e27966a80cf1c6f8",
+    "rights": "Public domain in the USA, as recorded by Project Gutenberg; check local law elsewhere."
+  },
+  {
+    "book_id": 1260,
+    "title": "Jane Eyre",
+    "text_url": "https://www.gutenberg.org/ebooks/1260.txt.utf-8",
+    "rights_url": "https://www.gutenberg.org/ebooks/1260",
+    "sha256": "13414dee2951c3ee731d76d2ffd822016b2479c892162760c5d0eb2aa5fa7631",
+    "rights": "Public domain in the USA, as recorded by Project Gutenberg; check local law elsewhere."
+  },
+  {
+    "book_id": 1342,
+    "title": "Pride and Prejudice",
+    "text_url": "https://www.gutenberg.org/ebooks/1342.txt.utf-8",
+    "rights_url": "https://www.gutenberg.org/ebooks/1342",
+    "sha256": "3f6bb9d6f78e0293b56acd4714dd68cb7d6d1d293402031ce9d5a216bcaf9d75",
+    "rights": "Public domain in the USA, as recorded by Project Gutenberg; check local law elsewhere."
+  },
+  {
+    "book_id": 11,
+    "title": "Alice in Wonderland",
+    "text_url": "https://www.gutenberg.org/ebooks/11.txt.utf-8",
+    "rights_url": "https://www.gutenberg.org/ebooks/11",
+    "sha256": "01b38ea4c710a84bc18d0bd41271a5a1a92b94e97b2812f4dece97d4a694725e",
+    "rights": "Public domain in the USA, as recorded by Project Gutenberg; check local law elsewhere."
+  },
+  {
+    "book_id": 84,
+    "title": "Frankenstein",
+    "text_url": "https://www.gutenberg.org/ebooks/84.txt.utf-8",
+    "rights_url": "https://www.gutenberg.org/ebooks/84",
+    "sha256": "2b97b7f8aad508649481d8dd4f6b54f9b965ddb3ba634e9151c815f537b49e42",
+    "rights": "Public domain in the USA, as recorded by Project Gutenberg; check local law elsewhere."
+  },
+  {
+    "book_id": 1661,
+    "title": "The Adventures of Sherlock Holmes",
+    "text_url": "https://www.gutenberg.org/ebooks/1661.txt.utf-8",
+    "rights_url": "https://www.gutenberg.org/ebooks/1661",
+    "sha256": "922e2a12ccb43a4c9544c260b2166c6ad2097aeb5957faeee113f173bb857cd0",
+    "rights": "Public domain in the USA, as recorded by Project Gutenberg; check local law elsewhere."
+  },
+  {
+    "book_id": 98,
+    "title": "A Tale of Two Cities",
+    "text_url": "https://www.gutenberg.org/ebooks/98.txt.utf-8",
+    "rights_url": "https://www.gutenberg.org/ebooks/98",
+    "sha256": "d54c2b80d40a40b982cd88852c6180bb944d95acdb028af3d0e01a1750681784",
+    "rights": "Public domain in the USA, as recorded by Project Gutenberg; check local law elsewhere."
+  },
+  {
+    "book_id": 74,
+    "title": "Tom Sawyer",
+    "text_url": "https://www.gutenberg.org/ebooks/74.txt.utf-8",
+    "rights_url": "https://www.gutenberg.org/ebooks/74",
+    "sha256": "74d77384b123a6360db9ab58463cff8b38df8525fbdc6000c81ee388e1f3cf10",
+    "rights": "Public domain in the USA, as recorded by Project Gutenberg; check local law elsewhere."
+  },
+  {
+    "book_id": 768,
+    "title": "Wuthering Heights",
+    "text_url": "https://www.gutenberg.org/ebooks/768.txt.utf-8",
+    "rights_url": "https://www.gutenberg.org/ebooks/768",
+    "sha256": "e533fe750589f0421d5d744576315f5c2b9b0d69e981179ea0551bbf134c5e02",
+    "rights": "Public domain in the USA, as recorded by Project Gutenberg; check local law elsewhere."
+  }
+]
