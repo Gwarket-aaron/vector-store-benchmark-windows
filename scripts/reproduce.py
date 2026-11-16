@@ -162,7 +162,7 @@ def main():
             venv=ROOT/('.venv-'+group)
             if venv.exists():raise FileExistsError('Use a clean checkout: '+venv.name)
             run(group+'-venv',['uv','venv','--python',sys.executable,venv])
-            run(group+'-install',['uv','pip','sync','--python',python(group),'-r','requirements/'+group+'.lock'])
+            run(group+'-install',['uv','pip','sync','--python',python(group),'requirements/'+group+'.lock'])
             run(group+'-pip-check',['uv','pip','check','--python',python(group)])
             run(group+'-versions',['uv','pip','freeze','--python',python(group)])
         # All downloads and embeddings are produced here, with no pre-existing data.

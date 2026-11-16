@@ -20,11 +20,11 @@ $env:UV_PYTHON_DOWNLOADS = 'never'
 $env:PYTHONUTF8 = '1'
 $env:PYTHONDONTWRITEBYTECODE = '1'
 uv venv --python 3.12.10 .venv-native
-uv pip sync --python .venv-native/Scripts/python.exe -r requirements/native.lock
+uv pip sync --python .venv-native/Scripts/python.exe requirements/native.lock
 uv venv --python 3.12.10 .venv-faiss
-uv pip sync --python .venv-faiss/Scripts/python.exe -r requirements/faiss.lock
+uv pip sync --python .venv-faiss/Scripts/python.exe requirements/faiss.lock
 uv venv --python 3.12.10 .venv-servers
-uv pip sync --python .venv-servers/Scripts/python.exe -r requirements/servers.lock
+uv pip sync --python .venv-servers/Scripts/python.exe requirements/servers.lock
 .venv-native/Scripts/python.exe -X utf8 -B scripts/workload.py prepare --data data --n 1000
 .venv-native/Scripts/python.exe -X utf8 -B scripts/workload.py run --data data --out runs/native --n 1000 --queries 300 --stores chroma,qdrant-local,lance
 .venv-faiss/Scripts/python.exe -X utf8 -B scripts/faiss_benchmark.py --data data --out runs/faiss --n 1000
